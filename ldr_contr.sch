@@ -1,0 +1,220 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ldr_contr-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADG728 U1
+U 1 1 5ACA13DF
+P 4900 1650
+F 0 "U1" H 4900 2400 50  0000 C CNN
+F 1 "ADG728" H 4900 900 50  0000 C CNN
+F 2 "" H 4900 1650 60  0001 C CNN
+F 3 "" H 4900 1650 60  0001 C CNN
+	1    4900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG728 U2
+U 1 1 5ACA145F
+P 4850 5650
+F 0 "U2" H 4850 6400 50  0000 C CNN
+F 1 "ADG728" H 4850 4900 50  0000 C CNN
+F 2 "" H 4850 5650 60  0001 C CNN
+F 3 "" H 4850 5650 60  0001 C CNN
+	1    4850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG728 U3
+U 1 1 5ACA14CB
+P 4850 3800
+F 0 "U3" H 4850 4550 50  0000 C CNN
+F 1 "ADG728" H 4850 3050 50  0000 C CNN
+F 2 "" H 4850 3800 60  0001 C CNN
+F 3 "" H 4850 3800 60  0001 C CNN
+	1    4850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM317_3PinPackage U5
+U 1 1 5ACA1580
+P 1150 6300
+F 0 "U5" H 1000 6425 50  0000 C CNN
+F 1 "LM317_3PinPackage" H 1150 6425 50  0000 L CNN
+F 2 "" H 1150 6550 50  0001 C CIN
+F 3 "" H 1150 6300 50  0001 C CNN
+	1    1150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5ACA15AF
+P 1150 7200
+F 0 "R1" V 1230 7200 50  0000 C CNN
+F 1 "287R" V 1150 7200 50  0000 C CNN
+F 2 "" V 1080 7200 50  0001 C CNN
+F 3 "" H 1150 7200 50  0001 C CNN
+	1    1150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5ACA15E8
+P 1600 6750
+F 0 "R2" V 1680 6750 50  0000 C CNN
+F 1 "1kR" V 1600 6750 50  0000 C CNN
+F 2 "" V 1530 6750 50  0001 C CNN
+F 3 "" H 1600 6750 50  0001 C CNN
+	1    1600 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 5ACA1619
+P 650 6600
+F 0 "C1" H 675 6700 50  0000 L CNN
+F 1 "100uF / 25V" H 675 6500 50  0000 L CNN
+F 2 "" H 688 6450 50  0001 C CNN
+F 3 "" H 650 6600 50  0001 C CNN
+	1    650  6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5ACA165D
+P 1950 6700
+F 0 "C2" H 1975 6800 50  0000 L CNN
+F 1 "100uF / 25V" H 1975 6600 50  0000 L CNN
+F 2 "" H 1988 6550 50  0001 C CNN
+F 3 "" H 1950 6700 50  0001 C CNN
+	1    1950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5ACA5CF6
+P 650 5800
+F 0 "#PWR?" H 650 5650 50  0001 C CNN
+F 1 "+12V" H 650 5940 50  0000 C CNN
+F 2 "" H 650 5800 50  0001 C CNN
+F 3 "" H 650 5800 50  0001 C CNN
+	1    650  5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5ACA5D2E
+P 7500 3200
+F 0 "#PWR?" H 7500 3050 50  0001 C CNN
+F 1 "+5V" H 7500 3340 50  0000 C CNN
+F 2 "" H 7500 3200 50  0001 C CNN
+F 3 "" H 7500 3200 50  0001 C CNN
+	1    7500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5ACA5D66
+P 6100 1650
+F 0 "#PWR?" H 6100 1400 50  0001 C CNN
+F 1 "GND" H 6100 1500 50  0000 C CNN
+F 2 "" H 6100 1650 50  0001 C CNN
+F 3 "" H 6100 1650 50  0001 C CNN
+	1    6100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  5800 650  6450
+Wire Wire Line
+	650  6300 850  6300
+$Comp
+L GND #PWR?
+U 1 1 5ACA6104
+P 1150 7550
+F 0 "#PWR?" H 1150 7300 50  0001 C CNN
+F 1 "GND" H 1150 7400 50  0000 C CNN
+F 2 "" H 1150 7550 50  0001 C CNN
+F 3 "" H 1150 7550 50  0001 C CNN
+	1    1150 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 7550 1150 7350
+Wire Wire Line
+	1150 6600 1150 7050
+Connection ~ 650  6300
+Wire Wire Line
+	650  6750 650  7500
+Wire Wire Line
+	650  7500 1950 7500
+Connection ~ 1150 7500
+Wire Wire Line
+	1150 7000 1600 7000
+Wire Wire Line
+	1600 7000 1600 6900
+Connection ~ 1150 7000
+Wire Wire Line
+	1600 6600 1600 6300
+Wire Wire Line
+	1450 6300 2100 6300
+Wire Wire Line
+	1950 6300 1950 6550
+Connection ~ 1600 6300
+Wire Wire Line
+	1950 7500 1950 6850
+Text GLabel 2350 6300 0    60   Output ~ 0
+5.5V
+Connection ~ 1950 6300
+$Comp
+L Conn_02x17_Row_Letter_First J?
+U 1 1 5ACA64E9
+P 1950 3850
+F 0 "J?" H 2000 4750 50  0000 C CNN
+F 1 "Conn_02x17_Row_Letter_First" H 2000 2950 50  0000 C CNN
+F 2 "" H 1950 3850 50  0001 C CNN
+F 3 "" H 1950 3850 50  0001 C CNN
+	1    1950 3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

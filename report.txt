@@ -1,0 +1,50 @@
+Hinweis:Lese Netzliste "/Users/manji/ldr_contr/ldr_contr.net".
+
+Hinweis:Verwende Referenzen für den Abgleich von Bauteilen mit Footprints.
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C1:/5ACA1619:Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C2:/5ACA165D:Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "P1:/5ACC634F:Connect:PINHEAD1-3".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "P2:/5ACC8DCA:created:PINHEAD1-4".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "P3:/5ACC571B:Connect:IDC_Header_Straight_34pins".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R1:/5ACA15AF:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R2:/5ACA15E8:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "Rp1:/5ACC7366:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "Rp2:/5ACC73C1:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "Rp3:/5ACC9DFB:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "Rp4:/5ACDCB15:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Füge neues Bauteil "Rp4:/5ACDCB15" mit Footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" hinzu.
+
+Ändere Netzname von Bauteil "Rp4:/5ACDCB15" Pin "1" von "" zu "Net-(P2-Pad3)".
+
+Ändere Netzname von Bauteil "Rp4:/5ACDCB15" Pin "2" von "" zu "Net-(Rp4-Pad2)".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "Rp5:/5ACDCBB0:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Füge neues Bauteil "Rp5:/5ACDCBB0" mit Footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" hinzu.
+
+Ändere Netzname von Bauteil "Rp5:/5ACDCBB0" Pin "1" von "" zu "Net-(Rp5-Pad1)".
+
+Ändere Netzname von Bauteil "Rp5:/5ACDCBB0" Pin "2" von "" zu "Net-(P2-Pad3)".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U1:/5ACA13DF:Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U2:/5ACA145F:Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U3:/5ACA14CB:Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U4:/5ACC8C6F:Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U5:/5ACA1580:Power_Integrations:TO-220".
+

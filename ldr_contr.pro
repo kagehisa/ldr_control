@@ -1,4 +1,4 @@
-update=Dienstag, 10. April 2018 'u04' 17:04:45
+update=Donnerstag, 12. April 2018 'u02' 21:02:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=own_libs;extra_libs
 [eeschema/libraries]
 LibName1=ldr_contr-rescue
 LibName2=power

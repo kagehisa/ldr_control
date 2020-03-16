@@ -1,0 +1,22 @@
+Source:	/Users/manji/ldr_contr/ldr_contr.sch
+Date:	Montag, 16. April 2018 'u55' 14:55:18
+Tool:	Eeschema 4.0.7
+Component Count:	17
+Ref	Value	Part	Footprint	Description	Vendor
+C1	100uF / 25V	device:CP	Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5	Polarised capacitor	
+C2	100uF / 25V	device:CP	Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5	Polarised capacitor	
+J2	Conn_02x17_Odd_Even	conn:Conn_02x17_Odd_Even	Connect:IDC_Header_Straight_34pins	Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)	
+P1	CONN_01X03	conn:Conn_01x03	Connect:PINHEAD1-3	Generic connector, single row, 01x03	
+P2	CONN_01X04	conn:Conn_01x04	created:PINHEAD1-4	Generic connector, single row, 01x04	
+R1	287R	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+R2	1kR	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+Rp1	4.7k	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+Rp2	4.7k	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+Rp3	200k	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+Rp4	4.7k	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+Rp5	4.7k	device:R	Resistors_ThroughHole:Resistor_Horizontal_RM10mm	Resistor	
+U1	ADG728	analog_switches:ADG728	Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm		
+U2	ADG728	analog_switches:ADG728	Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm		
+U3	ADG728	analog_switches:ADG728	Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm		
+U4	PCA9306	texas:PCA9306	Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm	Dual bidirectional I2C Bus and SMBus voltage level translator	
+U5	LM317_3PinPackage	regul:LM317_3PinPackage	Power_Integrations:TO-220	1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263	
